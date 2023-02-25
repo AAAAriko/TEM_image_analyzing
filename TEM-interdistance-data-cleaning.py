@@ -1,7 +1,7 @@
 import pandas as pd
  
-file_name = input("Name of the xlsx file, do not include .xlsx:")
-threshold = int(input("Largest acceptable length:"))
+file_name = input("Name of the xlsx file, do not include .xlsx : ")
+threshold = int(input("Largest acceptable length : "))
 
 sheet_fullname = file_name + ".xlsx"
 cleaned_sheet_name = file_name + ".txt"
